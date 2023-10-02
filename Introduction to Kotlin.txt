@@ -1,0 +1,23 @@
+# INTRODUCTION TO KOTLIN
+------------------------
+* What is Kotlin?
+-----------------
+Welcome to the world of coding with Kotlin!
+
+Kotlin is a programming language that, after its release in 2016 by JetBrains, quickly gained popularity amongst developers due to its concise syntax, additional safety features, and 
+compatibility with the Java programming language.
+
+Being a general-purpose programming language, Kotlin can be used for Android development, web development, data science, and more. In 2019, Google announced Kotlin as their preferred 
+language for Android development.
+
+The following applications use Kotlin in their tech stack:
+
+	. Netflix
+	. Duolingo
+	. Pinterest
+	. And more!
+
+Throughout this lesson, we’ll learn about Kotlin syntax and how to run a basic program.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
