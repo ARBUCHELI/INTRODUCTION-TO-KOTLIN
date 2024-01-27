@@ -21,3 +21,71 @@ Throughout this lesson, we’ll learn about Kotlin syntax and how to run a basic
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* First Kotlin Program
+----------------------
+What better way to start learning about Kotlin than to run a Kotlin program? Before we run our first program, let’s take a moment to understand our current environment.
+
+Code is written and edited in something called a code editor. The code editor for a Codecademy exercise lives in the middle of the screen. If we look at the top of the editor, we will see 
+the file name Hello.kt. The .kt extension signifies that the file contains Kotlin code.
+
+In our code editor, there is a short Kotlin program:
+
+fun main() {
+  println("Hello, World!")
+}
+
+Don’t worry about understanding what this code means yet. All this program does is print the text "Hello, World!" to the output terminal, which exists on the right side of our screen. 
+When we click Run, the output terminal displays our code’s final output.
+
+We’ll be checking the output terminal a lot to ensure our code works as expected.
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Hit Run to execute our first Kotlin program.
+
+
+Hint
+After hitting Run, the following result should appear in the output terminal:
+
+Hello, World!
+
+Hello.kt
+--------
+fun main() {
+  println("Hello, World!")
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
