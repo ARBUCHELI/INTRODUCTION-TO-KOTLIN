@@ -216,6 +216,92 @@ fun main() {
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Order of Execution
+--------------------
+Similar to instructions in a recipe, code is read, compiled, and executed in a top-down order.
+
+When we run a program, a compiler translates our Kotlin code into something that can be read by the Java Virtual Machine (JVM). The JVM is responsible for executing code as instructions.
+
+All of this happens behind the scenes between running our code and seeing its output in the terminal.
+
+Inside the main() function, the top line of the code is the first instruction that gets read by the compiler. For example, let’s create a program that contains three print statements:
+
+fun main() {
+  println("Huzzah!")
+  println("Woohoo!")
+  println("Yehaw!") 
+}
+
+In the snippet above, the print statement containing "Huzzah!" is the first line of code in the main() function; therefore, it will be printed to the output terminal first followed by 
+"Woohoo!" and then "Yehaw!":
+
+Huzzah!
+Woohoo!
+Yehaw!
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Use println() to create a timeline for The Great Emu War of 1932.
+
+Use the following text to create 3 print statements:
+
+	. "11/2 - AU military goes to war against local emus."
+
+	. "11/4 - Ambush planned by military fails."
+
+	. "11/8 - AU military withdraws."
+
+The content of the print statements must appear in the correct time order.
+
+
+Hint
+The print statements must appear in a specific order:
+
+	1. "11/2 - AU military goes to war against local emus."
+
+	2. "11/4 - Ambush planned by military fails."
+
+	3. "11/8 - AU military withdraws."
+
+Order.kt
+--------
+fun main() {
+  // Add your code below
+  println("11/2 - AU military goes to war against local emus.")
+  println("11/4 - Ambush planned by military fails.")
+  println("11/8 - AU military withdraws.")
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
