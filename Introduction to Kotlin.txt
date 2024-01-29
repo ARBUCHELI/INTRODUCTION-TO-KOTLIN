@@ -136,6 +136,109 @@ fun main() {
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Print Statements
+------------------
+In the last exercise, we were able to display the text Coding is fun! in the output terminal with the following code:
+
+fun main() {
+  println("Coding is fun!")
+}
+
+We accomplished this feat using a print statement. A print statement outputs values to the terminal.
+
+When we want to use a print statement in Kotlin, we use the println() function, which prints a value before creating a new line in the output terminal:
+
+println("To infinity and beyond!")
+
+Any value we want to print needs to be placed within the parentheses of the println() statement. If we want to output text, we need to contain the text in double quotes (""). The code in 
+the snippet above will output:
+
+To infinity and beyond!
+
+We can even use print statements to output number values and the result of expressions. For example:
+
+println(5 + 5)
+
+Will have an output of:
+
+10
+
+We’ll mainly use println() throughout this course; however, there is another option for printing values to the output terminal: print().
+
+The difference between println() and print() is that println() creates a new line after outputing a value, while print() doesn’t. For example:
+
+println("One")
+print("Two")
+print("Three")
+
+Will output:
+
+One
+TwoThree
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+In Print.kt, use println() to output "Just keep swimming!"
+
+
+Hint
+When using println() to output text, wrap the text in double-quotes(""):
+
+println("I am a text-based output!")
+
+This will output
+
+I am a text-based output!
+
+Checkpoint 2 Passed
+2.
+In Print.kt, use print() to output the expression 15 * 4.
+
+
+Hint
+Place the value or expression inside the parentheses of the print statement:
+
+print(9 + 1)
+
+This will output:
+
+10
+
+Print.tk
+--------
+fun main() {
+  // Write your code below!
+  println("Just keep swimming!")
+  print(15 * 4)
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
