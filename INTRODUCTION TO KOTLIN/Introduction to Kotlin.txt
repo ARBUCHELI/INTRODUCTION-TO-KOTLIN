@@ -417,6 +417,68 @@ fun main() {
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Formatting Conventions
+------------------------
+In programming, formatting conventions are the suggested rules for how code should be structured in a specific programming language. By following Kotlin’s formatting standards, or coding 
+conventions, we can drastically improve the readability of our programs.
+
+Some of Kotlin’s formatting conventions include:
+
+* Indentation:
+--------------
+Code within curly braces should be indented 4 spaces. While the Codecademy code editor generally uses 2 spaces, or 1 tab, for indentation, be sure to use 4 spaces when writing Kotlin code 
+off-platform.
+
+fun main() {
+    // Code starts here
+}
+
+If we didn’t include indentation in our program, our code would still run without error; however, our code would look like a giant block of text making it hard to read. As programs get 
+larger and more complicated, indentation for the purpose of organization becomes more essential.
+
+* Comments:
+-----------
+When writing a comment, add a space (" ") between // and the start of the comment:
+
+// Write your comment here
+
+* Curly Brackets:
+-----------------
+When creating the main() function, place the opening curly bracket { on the same line as the main() function construct (in this case: fun main()). The closing bracket } should be placed 
+on its own separate line and should be vertically aligned with the fun keyword:
+
+fun main() { 
+  // Code goes here
+} 
+
+Keep the above conventions in mind when writing Kotlin code throughout this course and off-platform. We’ll encounter more formatting conventions as we progress through this course. To 
+learn more, check out the coding conventions in Kotlin’s Language Guide.
+
+* Instructions
+--------------
+Take a look at the code in Syntax.kt.
+
+It’s unformatted but produces no error. Take some time to format the code using different coding conventions.
+
+Click Next when you’re ready to move on.
+
+Syntax.kt
+---------
+fun main() 
+{
+  // Organize the code below
+    println("Down by the bay")
+    println("Where the watermelons grow,")
+    println("Back to my home")
+    println("I dare not go.");
+    println("For if I do");
+    println("My mother will say")
+    println("Did you ever use an app that taught you how to snap?")
+    println("Down by the bay!")
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
