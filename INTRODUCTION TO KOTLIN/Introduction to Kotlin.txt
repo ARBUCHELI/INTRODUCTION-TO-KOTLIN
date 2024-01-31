@@ -276,8 +276,69 @@ fun main() {
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Comments
+----------
+Documenting what our code is accomplishing is a good programming practice because it makes our code understandable for both the programmer and anyone else who reads it.
+
+Comments allow us to write documentation inside of our programs. Comments can be written anywhere throughout a program and can contain text, symbols, or even code - all of which will be 
+ignored by the compiler.
+
+To write a single-line comment, type // into the program followed by the comment we want to add:
+
+// To be or not to be: that is the question.
+
+// symbolizes the start of a comment. Note how text that appears in a comment has a gray font-color.
+
+We also have the option of using a multiline comment which allows us to write comments throughout multiple lines. Multiline comments start with /* and end with */:
+
+/*
+If you prick us, do we not bleed?
+If you tickle us, do we not laugh? 
+If you poison us, do we not die? 
+And if you wrong us, shall we not revenge?
+
+- William Shakespeare, The Merchant of Venice 
+*/
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Add the following text as a single-line comment in Comments.kt:
+
+Code prints "Howdy, partner!" to the terminal.
 
 
+Hint
+Single-line comments start with //:
+
+// This is a single-line comment
+
+Checkpoint 2 Passed
+2.
+Create a multiline comment that describes what you have learned so far about programming with Kotlin.
+
+
+Hint
+A multiline comment starts with /* and ends with */:
+
+/*
+This
+   is
+     a
+      multiline
+           comment
+*/
+
+* Comments.tk
+-------------
+fun main() {
+  //Code prints "Howdy, partner!" to the terminal.
+  /*Kotlin is a multipurpose programming language, used mainly in the development of mobile apps*/
+  println("Howdy, partner!") 
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
