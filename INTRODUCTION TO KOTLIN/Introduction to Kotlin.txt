@@ -340,6 +340,101 @@ fun main() {
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Errors and Bugs
+-----------------
+While every programmer is different, there is one experience we all share: getting an error message. An error, or bug, causes our programs to behave in unexpected ways.
+
+When we receive an error message, it’s almost always because of something we wrote incorrectly in our code. As a result, the compiler cannot translate our program and returns an error 
+message.
+
+There are many different kinds of errors we can encounter. This may sound daunting, but luckily the Kotlin compiler provides accurate and descriptive error messages, allowing us to 
+quickly and efficiently locate the issue.
+
+For example, take a very close look at the following code:
+
+fun main() {
+  printlnn("To err is human.")
+}
+
+When we run this, we receive the following error:
+
+Error.kt:2:3: error: unresolved reference: printlnn
+  printlnn("To err is human.")
+  ^
+
+This error message provides a lot of useful information:
+
+	. Error.kt is the name of the file that contains the bug.
+
+	. The first number (2) tells us the line in which the error exists.
+
+	. The second number (3) tells us the character number in which the error lives on that line.
+
+	. The text following error: describes what error we are encountering.
+
+We received this error because we wrote printlnn instead of println and the compiler couldn’t recognize the instruction.
+
+Once we fix and rerun our code, we get the following output:
+
+To err is human.
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Run the code in Error.kt.
+
+We will receive an error message.
+
+
+Hint
+When we run this code, we should receive the following error:
+
+Error.kt:2:54: error: expecting ')'
+  println("An error a day keeps the programmer away."
+Checkpoint 2 Passed
+
+2.
+Read the error message and fix the code in the editor so that it can execute properly.
+
+PS: Check the hint for additional help!
+
+
+Hint
+The error message states that it’s expecting ):
+
+Error.kt:2:54: error: expecting ')'
+  println("An error a day keeps the programmer away."
+Looking at this message, we can deduce that the error exists on the 54th character of the second line in Error.kt.
+
+Taking a closer look at this code, the closing parenthesis ) is missing. To fix this code, add ) at the end of the print statement.
+
+Error.kt
+--------
+fun main() {
+  println("An error a day keeps the programmer away.")
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
