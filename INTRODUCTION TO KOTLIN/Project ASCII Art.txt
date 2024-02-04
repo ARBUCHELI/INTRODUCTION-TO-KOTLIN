@@ -1,0 +1,240 @@
+# PROJECT
+---------
+
+* ASCII Art
+-----------
+Programming and art are often viewed as opposites, but that couldn’t be farther from the truth. Coding can be a great medium for artistic creativity! One example of this is ASCII art.
+
+ASCII stands for American Standard Code for Information Interchange. Its general purpose is to give every character, from letters to numbers to symbols, its own unique character code so 
+that the character can be recognized in a digital space.
+
+It can also be used to create art!
+
+ASCII art is a drawing technique that uses a combination of different keyboard characters to create both simple and complex images:
+
+ASCII Art
+
+The ASCII image above is made up of several characters; for example, the petals on the flower were created using (, _, and ).
+
+In this project, we will be using print statements to create our own ASCII art image in Kotlin!
+
+* Tasks
+-------
+7/7 complete
+Mark the tasks as complete by checking them off
+
+* Planning the Art
+------------------
+1.
+Decide on an image you would like to recreate via ASCII art.
+
+For example:
+
+	. Robot
+	. Plant
+	. Cat
+
+Hint
+The image doesn’t have to be complicated.
+
+For example, here in the hints, we’ll be creating a simple image of our adventurer.
+
+2.
+Before we try to use print statements, let’s draft our ASCII drawing in the editor.
+
+Create a multiline comment. Inside the comment, use different letters, numbers, and symbols to draft out your image.
+
+
+Hint
+A multiline comment allows us to write text using as many lines as we need. A multiline comment starts with /* and ends with */.
+
+This gives us plenty of space to create our own image. For example, here’s a multiline comment that contains our image:
+
+/*
+     .....      
+  .         .   
+ .   0  0    .  
+  ...........   
+   .. __ ..     
+  . .|C_|. .    
+ .  ......  .   
+     .  .       
+     .  .       
+*/
+
+When we save our code, we will receive the following error because we did not create a main() function yet:
+
+error: could not find or load main class ArtKt
+Don’t worry - we’ll fix this in the next step.
+
+* Creating the Program
+----------------------
+3.
+Now that we have some ASCII art, let’s create a program that outputs our image to the terminal!
+
+First, create the main() function. We’ll add code to the main() function body in the next step.
+
+
+Hint
+The main() function is the starting off point of a Kotlin function.
+
+All the code we write for this project will be contained inside of main(). The syntax for the main() function looks like this:
+
+fun main() {
+  // Code is added here.
+}
+
+4.
+Now, we’ll create our print statements.
+
+For every line in the ASCII art image, use println() to create a print statement that contains all the values that exist in that line of art.
+
+
+Hint
+Here is our ASCII image of Codey in a multiline comment:
+
+/*  
+     .....    
+  .         .   
+ .   0  0    .  
+  ...........   
+   .. __ ..     
+  . .|C_|. .    
+ .  ......  .   
+     .  .       
+     .  .       
+*/
+
+The ASCII art above uses 9 lines, so we’ll need 9 print statements to output our image to the terminal.
+
+Our first print statement in the program will contain all the characters from the top line of the ASCII image:
+
+println("     .....")
+
+Note that spaces (" ") are important when it comes to the placement of characters in the image.
+
+Create and populate print statements until every line of the ASCII image is accounted for:
+
+fun main() {
+  println("     .....")
+  println("  .         .")
+  println(" .   0  0    .")
+  println("  ...........")
+  println("   .. __ ..")
+  println("  . .|C_|. .")
+  println(" .  ......  .")
+  println("     .  .")
+  println("     .  .") 
+}
+
+5.
+Once all the print statements are created, run the program and see how the drawing looks!
+
+If something doesn’t look right, now is the time to go back into the code to make the proper edits.
+
+Keep editing the program until you feel satisfied with the final result.
+
+
+Hint
+Imagine we set up our code in this way:
+
+fun main() {
+  println(".....")
+  println(".         .")
+  println(".   0  0    .")
+  println("...........")
+  println(".. __ ..")
+  println(". . |C_|. .")
+  println(".  ......  .")
+  println(".  .")
+  println(".  .") 
+}
+
+This will output:
+
+.....
+.         .
+.   0  0    .
+...........
+.. __ ..
+. . |C_|. .
+.  ......  .
+.  .
+.  .
+
+It looks like we forgot to add the proper spacing needed in our print statements.
+
+By frequently running our code and checking its outcome, we can spot any mishaps or errors and modify our program until we get the ideal output.
+
+* Optional
+----------
+6.
+Great job completing the project!
+
+If you want to keep challenging yourself, check out these additional tasks:
+
+Add a background to your ASCII image.
+Recreate the ASCII art using only one print statement. To accomplish this, you’ll need to use \n. Check out the hint below to learn more!
+
+Hint
+We can create new lines of text using only one print statement with the help of \n. By adding the escape character \n into a print statement, a new line will be created.
+
+For example
+
+println("Hello\nthere")
+
+Will give the output:
+
+Hello
+there
+
+If we use this to recreate our ASCII image, the print statement would look like this:
+
+println("     .....\n  .         .\n .   0  0    .\n  ...........\n   .. __ ..\n  . .|C_|. .\n .  ......  .\n     .  .\n     .  .  ")
+
+And have an output of:
+
+     .....
+  .         .
+ .   0  0    .
+  ...........
+   .. __ ..
+  . .|C_|. .
+ .  ......  .
+     .  .
+     .  .  
+
+7.
+Sample Solutions:
+
+Art.kt
+If you make something cool, share it with us!
+
+Art.tk
+------
+// Write your code below
+/*
+                .....
+            .           .
+          .     0   0     .
+            .............
+              .. ___ ..
+            .  .| B |. .
+          .    .......   .
+                .   .
+                .   .
+*/
+fun main () {
+  println("      ....      ")
+  println("  .           .")
+  println(".     0  0     .")
+  println("  .............")
+  println("    .. ___ ..")
+  println(" .   .| B | .  .")
+  println(".    ........   .")
+  println("_     .    .    _")
+  println("      .    .")
+  println("      .    .")
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
