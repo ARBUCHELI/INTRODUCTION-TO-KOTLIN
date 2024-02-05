@@ -27,3 +27,98 @@ interact with them.
 Click Up Next to learn more about variables and how they’re used in Kotlin.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Declaring a Mutable Variable
+------------------------------
+Now that we’ve familiarized ourselves with the concept of variables, let’s learn how to create a variable in Kotlin. A complete variable declaration and initialization resembles the 
+following form:
+
+var variableName: Type = value 
+
+* Declaration:
+--------------
+	. The var keyword specifies the beginning of a variable declaration. It signifies a mutable variable which means its value can change throughout the program.
+
+	. Following the keyword is the name of the variable in camelCase format. camelCase refers to a naming convention where the first word is lowercased, the first letter of the second 
+	is capitalized, and so on. It’s important to create concise, yet descriptive variable names for readability and maintainability. A famous software engineer once said:
+
+		“..I will cheerfully spend literally hours on identifier names: variable names, method names, and so forth, to make my code readable…” - Joshua Bloch
+
+	. The variable name is then followed by the type of data that the variable is intended to store. The type must always be capital.
+
+* Initialization:
+-----------------
+	. Once the variable has been declared, we can initialize it with a value. The = sign, known as an assignment operator in programming, assigns a value to the variable.
+
+Let’s apply this syntax to our first Kotlin variable:
+
+var guitarName: String = "Fender Stratocaster" 
+
+The guitarName variable has been allocated a position in memory by the compiler and can now be referenced and used throughout our program.
+
+The compiler also recognizes that this variable is mutable due to the var keyword ahead of the variable name; let’s explore what that means.
+
+We may sometimes need to declare a variable in our program, knowing it will be of use later on, but don’t have a value to initialize it with just yet. We can do so in this way:
+
+var variableName: Type 
+
+Assume we’re building a music application that will listen for the notes played on a guitar. We can declare a notePlayed variable and initialize it with a value when the user plays a 
+note:
+
+var notePlayed: String // declaration
+
+notePlayed = "B" // initialization 
+
+println(notePlayed) // Prints: B
+
+Notice how we did not need to use the var keyword on the second line as it is only used upon initial declaration. We’ve also omitted the type of data since this information needs to only be specified once.
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Within the main() function of Date.kt, declare a String variable named todaysDate and initialize it with today’s date using the following form:
+
+mm/dd/yyyy
+
+On the following line, add a println() statement and output the value of todaysDate.
+
+
+Hint
+Below the comment in the main() function, create a variable with this syntax in mind:
+
+var variableName: String = "05/05/2020"
+println(variableName)
+
+Checkpoint 2 Passed
+2.
+On the following line, declare another String variable, currentWeather. This time we will initialize the value separately, on the next line.
+
+	. Take a peek outside, and then assign a weather description to currentWeather.
+
+	. Add a println() below the initialized value and output currentWeather.
+
+
+Hint
+Declare a String variable, currentWeather, and separately initialize it with a value depicting the current weather:
+
+var variableName: String
+variableName = "Sunny"
+
+Finally, add a println() statement to output the value of currentWeather:
+
+println(variableName)
+
+Date.kt
+-------
+fun main() {
+  // Write your code below ☀️
+  var todaysDate: String = "02/05/2024";
+  println(todaysDate);
+
+  var currentWeather: String;
+  currentWeather = "Cloudy";
+  println(currentWeather);
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
