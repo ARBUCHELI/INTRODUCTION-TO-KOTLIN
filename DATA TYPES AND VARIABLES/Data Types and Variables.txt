@@ -1,0 +1,29 @@
+# DATA TYPES & VARIABLES
+------------------------
+
+* Introduction
+--------------
+In this lesson, we’ll explore the building blocks of a programming language - data types and variables. A data type represents the type of value an object possesses. Here are a few of the 
+types of data supported in Kotlin:
+
+	. String: a sequence of characters enclosed in double quotes
+
+	. Integer (Int): whole numbers and their opposites
+
+	. Boolean: true or false values
+
+Each variable in a Kotlin program will possess one of these types of data. Think of a variable as a unique, virtual container holding a certain piece of information that can then be used 
+and referenced throughout a program.
+
+Take a look at the animation on the right. Each item represents a variable holding a specific type of data dependent on its value. Codey packs their backpack with a lunchBox holding the 
+value "sandwich" and a waterBottle with 32 ounces of water. tentPacked holds a Boolean value which represents if the tent is in Codey’s backpack. With these values, we can then write a 
+program that checks if Codey has everything they need for their journey.
+
+This is just one of many programs we can build with these variables. Each variable would have its own place and purpose in a program, and their respective data types determine how we can 
+interact with them.
+
+* Instructions
+--------------
+Click Up Next to learn more about variables and how they’re used in Kotlin.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
